@@ -1,0 +1,204 @@
+{
+  "lists": [
+    {
+      "id": 1,
+      "listTitle": "Wocheneinkauf",
+      "completed": false,
+      "users": [
+        {
+          "id": 1,
+          "firstname": "Max",
+          "lastname": "Mustermann",
+          "email": "max@example.com"
+        },
+        {
+          "id": 2,
+          "firstname": "Anna",
+          "lastname": "Müller",
+          "email": "anna@example.com"
+        }
+      ],
+      "listElements": [
+        {
+          "id": 1,
+          "article": {
+            "id": 1,
+            "articleName": "Milch",
+            "measurement": "Liter",
+            "articleTagId": 1
+          },
+          "amount": 2,
+          "status": true
+        },
+        {
+          "id": 2,
+          "article": {
+            "id": 2,
+            "articleName": "Brot",
+            "measurement": "Stück",
+            "articleTagId": 2
+          },
+          "amount": 1,
+          "status": false
+        },
+        {
+          "id": 3,
+          "article": {
+            "id": 3,
+            "articleName": "Butter",
+            "measurement": "Gramm",
+            "articleTagId": 1
+          },
+          "amount": 250,
+          "status": false
+        },
+        {
+          "id": 4,
+          "article": {
+            "id": 4,
+            "articleName": "Eier",
+            "measurement": "Stück",
+            "articleTagId": 1
+          },
+          "amount": 10,
+          "status": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "listTitle": "Baumarkt",
+      "completed": false,
+      "users": [
+        {
+          "id": 1,
+          "firstname": "Max",
+          "lastname": "Mustermann",
+          "email": "max@example.com"
+        }
+      ],
+      "listElements": [
+        {
+          "id": 5,
+          "article": {
+            "id": 5,
+            "articleName": "Schrauben",
+            "measurement": "Packungen",
+            "articleTagId": 3
+          },
+          "amount": 5,
+          "status": false
+        },
+        {
+          "id": 6,
+          "article": {
+            "id": 6,
+            "articleName": "Holzbretter",
+            "measurement": "Meter",
+            "articleTagId": 3
+          },
+          "amount": 3,
+          "status": false
+        },
+        {
+          "id": 7,
+          "article": {
+            "id": 7,
+            "articleName": "Hammer",
+            "measurement": "Stück",
+            "articleTagId": 3
+          },
+          "amount": 1,
+          "status": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "listTitle": "Partyvorbereitung",
+      "completed": false,
+      "users": [
+        {
+          "id": 2,
+          "firstname": "Anna",
+          "lastname": "Müller",
+          "email": "anna@example.com"
+        },
+        {
+          "id": 3,
+          "firstname": "Peter",
+          "lastname": "Schmidt",
+          "email": "peter@example.com"
+        }
+      ],
+      "listElements": [
+        {
+          "id": 8,
+          "article": {
+            "id": 8,
+            "articleName": "Chips",
+            "measurement": "Packungen",
+            "articleTagId": 4
+          },
+          "amount": 3,
+          "status": false
+        },
+        {
+          "id": 9,
+          "article": {
+            "id": 9,
+            "articleName": "Limonade",
+            "measurement": "Flaschen",
+            "articleTagId": 4
+          },
+          "amount": 6,
+          "status": true
+        },
+        {
+          "id": 10,
+          "article": {
+            "id": 10,
+            "articleName": "Plastikbecher",
+            "measurement": "Packungen",
+            "articleTagId": 5
+          },
+          "amount": 2,
+          "status": false
+        },
+        {
+          "id": 11,
+          "article": {
+            "id": 11,
+            "articleName": "Servietten",
+            "measurement": "Packung",
+            "articleTagId": 5
+          },
+          "amount": 1,
+          "status": false
+        }
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "tagTitle": "Lebensmittel"
+    },
+    {
+      "id": 2,
+      "tagTitle": "Bäckerei"
+    },
+    {
+      "id": 3,
+      "tagTitle": "Baumarkt"
+    },
+    {
+      "id": 4,
+      "tagTitle": "Snacks"
+    },
+    {
+      "id": 5,
+      "tagTitle": "Partybedarf"
+    }
+  ]
+}
